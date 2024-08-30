@@ -112,8 +112,8 @@ class LoginForm extends Component {
             className="login-website-logo-desktop-image"
             alt="website logo"
           />
-          <div className="input-container">{this.renderUsernameField()}</div>
-          <div className="input-container">{this.renderPasswordField()}</div>
+          <div className="input-container">{this.renderUsernameField()} (rahul )</div>
+          <div className="input-container">{this.renderPasswordField()} ( rahul@2021 )</div>
           <button type="submit" className="login-button">
             Login
           </button>
